@@ -106,3 +106,28 @@ label {
 #task-list button:hover {
   background: #ffd1d1;
 }
+
+#status {
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.task-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.task-text {
+  flex: 1;
+}
+
+li.completed .task-text {
+  text-decoration: line-through;
+  color: #6b7280;
+}
